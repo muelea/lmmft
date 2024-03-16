@@ -1,0 +1,16 @@
+[
+  {
+    "id": "image_00001",
+    "image": "image_00001.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWrite a prompt for Stable Diffusion to generate this image."
+      },
+      {
+        "from": "gpt",
+        "value": "a beautiful painting of chernobyl by nekro, pascal blanche, john harris, greg rutkowski, sin jong hun, moebius, simon stalenhag. in style of cg art. ray tracing. cel shading. hyper detailed. realistic. ue 5. maya. octane render. "
+      }
+    ]
+  }
+]
