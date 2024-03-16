@@ -1,5 +1,17 @@
 # lmmft
 
+# Get repo & LLaVA (= submodule)
+```
+git clone https://github.com/muelea/lmmft.git
+git submodule update --init --recursive
+```
+
+# To get latest changes to submodule
+```
+git pull --recurse-submodules
+```
+
+
 # Install Virtual Environment
 ```
 conda create -n lmmft python=3.10 -y
