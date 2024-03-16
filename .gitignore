@@ -6,6 +6,7 @@ essentials_orig
 outdebug
 experiments
 condorlog
+/wandb
 
 *.swp
 
