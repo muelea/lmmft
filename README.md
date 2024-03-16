@@ -35,3 +35,11 @@ python llava_inference.py --model_path essentials/llava/llava-v1.6-mistral-7b \
 --prompt What are the things I should be cautious about when I visit here? \
 --image_url https://www.weltderphysik.de/fileadmin/_processed_/1/e/csm_16920180628_Fuego_Thinkstock_6e2093c444.webp
 ```
+
+Chat about an image with LLaVA 
+```
+python -m llava.serve.cli \
+    --model-path essentials/llava/llava-v1.6-mistral-7b \
+    --image-file "https://llava-vl.github.io/static/images/view.jpg" \
+    --load-4bit
+```
