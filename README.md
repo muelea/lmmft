@@ -56,3 +56,7 @@ python -m llava.serve.cli \
     --image-file "https://llava-vl.github.io/static/images/view.jpg" \
     --load-4bit
 ```
+
+# Training of original Lava Data
+Folder structure, download links and promts/labels are described (here)[https://github.com/haotian-liu/LLaVA?tab=readme-ov-file#visual-instruction-tuning]
+
