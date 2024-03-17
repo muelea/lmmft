@@ -3,6 +3,7 @@
 # Get repo & LLaVA (= submodule)
 ```
 git clone https://github.com/muelea/lmmft.git
+cd lmmft/
 git submodule update --init --recursive
 ```
 
